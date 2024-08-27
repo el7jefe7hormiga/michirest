@@ -25,7 +25,7 @@ function Mesa(props) {
                           transition flex flex-col w-80"
     >
       <picture className="flex justify-center p-1">
-        <img src={`./${imagen}`} alt={imagen} width="64px" />
+        <img src={imagen} alt={imagen} width="64px" className="rounded-md" />
       </picture>
 
       <header className="p-1">
